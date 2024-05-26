@@ -19,7 +19,7 @@ const log = debug('ssh-tunnel');
 export function createTunnel(options: ITunnelOptions) {
     return new Promise<ITunnel>((resolve, reject) => {
         const args = [
-            '-R', `0.0.0.0:25400:127.0.0.1:${options.localPort}`,
+            '-R', `0.0.0.0:${options.remotePort}:127.0.0.1:${options.localPort}`,
             `${options.remoteUser}@${options.remoteHost}`,
         ];
 
