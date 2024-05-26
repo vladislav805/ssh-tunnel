@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": ["ES7"],
+        "outDir": "dist",
+        "declaration": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
