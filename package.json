@@ -1,6 +1,6 @@
 {
   "name": "@veluga/ssh-tunnel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Create SSH tunnel",
   "main": "dist/index.js",
